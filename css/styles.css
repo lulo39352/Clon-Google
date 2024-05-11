@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto" , sans-serif;
+}
+
+body {
+    background-color: #202124;
+}
+
+.navbar {
+    display: flex;
+    height: 48px;
+    padding: 8px;
+    align-items: center;
+    justify-content: end;
+    color: #4a4a4a;
+}
+
+.navbar__elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar__ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.navbar__li {
+    padding-left: 15px;
+    list-style: none;
+}
+
+.navbar__li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar__media {
+    display: flex;
+    align-items: center;
+    /* Alinea los elementos verticalmente */
+    justify-content: center;
+    /*Alinea los elementos horizontalmente */
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.navbar_ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.navbar__ball:hover{
+background-color:#86898f;
+border-radius: 50%;
+}
+
+.navbar__menu:hover{
+    background-color: #86898f;
+    border-radius: 50%;
+}
+
+.navbar__imagemenu {
+    fill: #5f6368;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar__profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-image: url("../assets/image/circle.svg"), url("https://lh3.google.com/u/0/ogw/AF2bZyjl8_rFLr55d6y4umzd1x1V73W5HmreXAJAOfs7u1tN_w=s32-c-mo");
+    
+    background-position: center;
+    background-size: contain,cover;
+}
+
+/* Seccion Main: Contenedor principal */
+main{
+    display: flex;
+    flex-direction: column; /* Cuando se usa esta propiedad la forma de la alineacion vertical y horizontal se invierte */
+    align-items: center; /* Alinea los elementos horizontalmente */
+    justify-content: center; /* Alinea los elementos verticalmente  */
+}
+
+.main__logo{
+    width: 272px;
+    height: 200px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.main__search{
+    width: 561px;
+    height: 44px;
+    padding: 1px 1px;
+    box-shadow: 0 1px 6px 0 #e7e8ec47;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 52px 422px 41px 41px;
+    grid-template-rows: 44px;
+    justify-items: center;
+    align-items: center;
+}
+
+.main_input{
+     width: 422px;
+     height: 42px;
+     border: none;
+     outline: none;
+     background-color: #202124;
+}
+
+.main__image{
+    cursor: pointer;
+}
+
+.main__image--icons{
+    width: 24px;
+    height: 24px;
+}
+
+.menu__elements {
+    unicode-bidi: isolate;
+
+}
+
+.menu__ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu__li {
+    display: flex;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    margin: 11px 4px;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    background-color: #303134;
+    color: #e8eaed;
+    padding: 0 16px;
+    list-style: none;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloq {
+    display: flex;
+    font-size: small;
+    text-align: center;
+    margin: 24px;
+
+
+
+}
+
+.bloque_li {
+    color: #e8eaed;
+    list-style: none;
+
+
+}
+
+.bloq__li {
+    color: #a8c7fa;
+    padding: 0 3px;
+    list-style: none;
+}
+
+.element {
+
+    border: #303134;
+    left: 0px;
+    position: absolute;
+    top: 710px;
+    width: 1658px;
+    justify-content: space-between;
+
+
+}
+
+.elemento__li {
+    padding: 15px 30px;
+    border-bottom: 1px solid #131414;
+    background-color: #131414;
+    list-style: none;
+    font-size: 15px;
+    color: #e8eaed;
+
+
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    display: flex;
+    top: 760px;
+    width: 1618px;
+    background-color: #131414;
+    padding: 0 20px;
+    font-size: 14px;
+
+}
+
+.container2 {
+    position: absolute;
+    display: flex;
+    right: 0;
+    padding: 0 20px;
+    font-size: 14px;
+
+}
